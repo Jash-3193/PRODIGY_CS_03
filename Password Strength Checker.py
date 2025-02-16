@@ -1,5 +1,4 @@
 import re
-
 def check_password_strength(password):
     # Initialize the strength score
     strength = 0
@@ -47,7 +46,6 @@ def check_password_strength(password):
 
     return feedback
 
-# Example usage
 password = input("Enter your password: ")
 strength_feedback = check_password_strength(password)
 for line in strength_feedback:
